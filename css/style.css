@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+/*Header Section CSS Starts*/
+
+.header-section {
+    padding: 16px 0;
+}
+.header-section .wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-section .wrapper .logo {
+	width: 30%;
+	float: left;
+}
+.header-section .wrapper .logo img {
+	width: 100%;
+}
+
+
+.header-section .wrapper .menu {
+    width: 62%;
+    float: right;
+    margin-top: 30px;
+}
+.header-section .wrapper .menu ul {}
+.header-section .wrapper .menu ul li {
+    float: left;
+    list-style: none;
+}
+.header-section .wrapper .menu ul li a {
+    text-decoration: none;
+    color: #717B84;
+    padding: 0 31px;
+    font-weight: 600;
+}
+.header-section .wrapper .menu ul li a:hover {
+	color: #03386C;
+}
+.header-section .wrapper .menu ul li:last-child a {
+	padding-right: 0;
+}
+
+/*Header Section CSS Ends*/
+
+/*Banner Section CSS Starts*/
+
+.banner-section {
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 673px;
+    margin-bottom: 80px;
+}
+.banner-section .wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner-section .wrapper .b-content {
+    /* border: 1px solid red; */
+    width: 380px;
+    padding: 45px 40px 45px 90px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 80px;
+    position: absolute;
+    margin-bottom: 216px;
+    margin-left: -67px;
+}
+.banner-section .wrapper .b-content h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: lighter;
+    margin-bottom: 3px;
+    opacity: 80%;
+}
+.banner-section .wrapper .b-content h3 {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    opacity: 75%;
+}
+.banner-section .wrapper .b-content .button {
+    background: rgba(0,0,0,0.6);
+    width: 158px;
+    text-align: center;
+    padding: 12px 7px;
+    margin-top: 33px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.banner-section .wrapper .b-content .button:hover {
+	background: black;
+}
+.banner-section .wrapper .b-content .button p {
+    color: #fff;
+    font-size: 19px;
+    opacity: 80%;
+}
+
+/*Banner Section CSS Ends*/
+
+/*Service Section CSS Starts*/
+.service-section {}
+.service-section .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.service-section .wrapper .single {
+    width: 28%;
+    float: left;
+    padding: 0 31px;
+    margin-top: 30px;
+    margin-bottom: 110px;
+}
+.service-section .wrapper .single .head {
+}
+.service-section .wrapper .single .head h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #777;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.service-section .wrapper .single .image {}
+.service-section .wrapper .single .image img {
+    width: 100%;
+}
+.service-section .wrapper .single .text {}
+.service-section .wrapper .single .text p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+    text-align: center;
+    margin-top: 25px;
+}
+.service-section .wrapper .single .btn {
+    text-align: center;
+    margin-top: 40px;
+}
+.service-section .wrapper .single .btn button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background: #395676;
+    padding: 8px 21px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.service-section .wrapper .single .btn button:hover {
+    background: red;
+}
+
+
+/*Service Section CSS Ends*/
+
+
+/*Footer Section CSS Starts*/
+.footer-section {
+    text-align: center;
+}
+.footer-section .wrapper {}
+.footer-section .wrapper .f-text h3 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.footer-section .wrapper .f-logo {
+    margin-top: 26px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.footer-section .wrapper .f-logo a {}
+.footer-section .wrapper .f-logo i {}
+/*Footer Section CSS Ends*/
+
